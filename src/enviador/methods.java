@@ -73,25 +73,7 @@ public class methods {
             message.setRecipients(Message.RecipientType.TO, toUser);
             message.setHeader("content-type", "text/plain");
             message.setSubject("Teste - Enviando email com JavaMail");//Assunto
-            /*
-            String html = "Hi, how are you?\n"
-                    + "I hope you are well!\n" + "\n\n"
-                    + "My name is Jackson, originally from Brazil but living in Dublin for the past 2 years. As a\n"
-                    + "Science Computing student qualified in ERP systems development and computer maintenance\n"
-                    + "with 4 years of experience and many others relevant achievements during my career in Brazil,"
-                    + "I am now looking for a job opportunity in Ireland where I intend to stablish my career."
-                    + "I am willing to work as an intern, either paid or unpaid internships interest me, that`s because"
-                    + "I believe that is an excelent opportunity to cooperate with the company growth"
-                    + "and my pernsonal development, and when it comes to add knowledge and"
-                    + "experience, the more the better."
-                    + "My CV a with more detailed description of my skills is attached to this email for opportunities"
-                    + "that match with my professional profile."
-                    + "Thank you in advance for your time and I place myself available for further"
-                    + "explanation."
-                    + "Best Regards,"
-                    + "Jackson Ferreira.";*/
-
-            
+                
             messageBodyPart1.setContent("vxcvx\nffdfdfsd \n fdsfd", "text/html; charset=UTF-8");
 
             message.getFileName();
